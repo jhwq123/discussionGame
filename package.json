@@ -1,0 +1,26 @@
+{
+  "name": "discussiongame",
+  "version": "1.0.0",
+  "description": "experiment with a discussion website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhwq123/discussionGame.git"
+  },
+  "scripts": {
+    "dev": "nodemon -L --exec babel-node index.js"
+  },
+  "author": "jhwq123@naver.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhwq123/discussionGame/issues"
+  },
+  "homepage": "https://github.com/jhwq123/discussionGame#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
